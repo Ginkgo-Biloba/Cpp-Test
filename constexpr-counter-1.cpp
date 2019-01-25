@@ -1,6 +1,6 @@
 // https://zhuanlan.zhihu.com/p/24910829
 
-template <int N>
+template<int N>
 struct Flag
 {
 	friend int constexpr adl_flag(Flag<N>);
